@@ -13,6 +13,6 @@
        <p>it is currently {{ date('h:i a') }}</p>
     </body>
     <footer>
-        <p> $copy; Copyright {{ date('Y') }} <a href="#">About Us </a></p>
+        <p> $copy; Copyright {{ date('Y') }} <a href="/about-us">About Us </a></p>
     </footer>
 </html>
