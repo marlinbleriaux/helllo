@@ -3,9 +3,9 @@
 
 
 Route::get('/',function(){
-    return view('welcome');
-});
+    return view('pages/welcome');
+})->name('welcome');
 
 Route::get('/about-us',function(){
-    return view('about');
-}); 
+    return view('pages/about');
+})->name('about'); 
