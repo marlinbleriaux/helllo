@@ -1,8 +1,8 @@
-@extends('base')
-
+@extends('layouts.base')
+<!-- 
 @section('title')
     HELLO CITY
-@endsection
+@endsection -->
 
 @section('content')
 <img src="{{asset('image/drapeau.jpg')}}" alt="cameroun" class="mt-12 rounded shadow-md h-32 ">

@@ -1,10 +1,10 @@
-@extends('base')
+@extends('layouts.base',['pageTitle'=> 'About us ' ])
 
 
-@section('title')
+<!-- @section('title')
  
  About Us | hello city
-@endsection
+@endsection -->
 
 @section('content')
       <img src="{{asset('image/tél.png')}}" alt="kmb" class="my-12 rounded-full shadow-md">
